@@ -1,0 +1,271 @@
+/*Letras*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+
+body{
+    font-family: 'Magra', sans-serif;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Teko', sans-serif;
+    background-color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1 { font-size: 3.25em; }
+h2 { font-size: 2.25em;}
+a {font-size: 1.5em;}
+p {font-size: 1.5em;}
+
+
+/*     */
+
+/*Menú*/
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 15px 20px;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    background: linear-gradient(0deg,#263b44, #0a1314);
+}
+
+a{
+    text-decoration-line: none;
+    padding: 15px 20px;
+    color: white;
+}
+
+/**/
+
+
+#hero{
+   display: flex;
+   margin: auto;
+   padding: 0;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 500px;
+   width: 500PX;
+   color: black;
+   flex-direction: column;
+   background-image:url(24ace3e6-9e7c-432d-962c-64b48262aa2f.JPEG);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-position: center center;
+}
+
+
+
+/*box-shadow: 0 3px 5px rgba(53,57,53) ;*/
+
+/*Acerca de mi*/
+
+
+.containel{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+    height: 300px;
+    background: linear-gradient(0deg, #1b2b34, #3a8081);
+}
+
+h2{   
+    color: #E3F2FD;
+    font-size: 2.25em;
+    font-weight: 400;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 15px 20px;
+    background-color: #0a1314;
+    text-align: center;
+    background: linear-gradient(0deg,#263b44, #0a1314);
+}
+
+.texto{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding: 15px 25px;
+    color: aliceblue;
+}
+
+
+/*Proyectos*/
+
+.fixend{
+    background: #1b2b34;
+    background-size: cover;
+    height: 500px;
+}
+
+h3{
+    background-color: #3a8081;
+    border: 1px solid #0a1314;
+}
+
+.carteles:first-child{
+ background-size: cover;
+ background-position: center center;
+ float: left;
+ width: 23em;
+ height: 30%;
+ padding: 30px 20px 30px 46px;
+ text-align: center;
+ align-items: center;
+ justify-content: space-between;
+ border: 4px solid #263b44;
+ box-shadow: 0 3px 10px;
+ margin-bottom: 0.5rem;
+ border-radius: 11px;
+ margin: 1px;
+ background: whitesmoke;
+}
+
+
+
+.carteles:nth-child(2){
+        background-size: cover;
+        background-position: center center;
+        float: left;
+        width: 23em;
+        height: 40%;
+        padding: 30px 20px 30px 46px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 3px 10px;
+        margin-bottom: 0.5rem;
+        border-radius: 11px;
+        margin: 1px;
+        border: 4px solid #263b44;
+        background: whitesmoke;      
+}
+
+.carteles:nth-child(3){
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    width: 23em;
+    height: 50%;
+    padding: 30px 20px 30px 46px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 4px solid #263b44;
+    box-shadow: 0 3px 10px;
+    margin-bottom: 0.5rem;
+    border-radius: 11px;
+    margin: 1px;
+    background: whitesmoke;      
+}
+/*Trabajo con
+
+.habilidades{
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor-habilidad img{
+    padding: 1.25rem;
+}
+
+.icon{
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+.icon-carde{
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px;
+    padding: 20px;
+    margin: 10px;
+}
+*/
+
+/*Caja de respuestas*/
+/*
+.contacto{
+    margin-top: 2rem;
+    background: #0a1314;
+}
+
+.contacto h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.formulario-de-contacto{
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px;
+    background: #E3F2FD;
+}
+
+.formulario-de-contacto label{
+    line-height: 2.7rem;
+    font-weight: 700;
+    color: black;
+}
+
+.formulario-de-contacto textarea{
+    min-height: 6.25rem;
+    font-size: 14px;
+}
+
+.formulario-de-contacto .input-field{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset #0a1314 ;
+    font-size: 1em;
+    outline: none;
+}
+
+.input-field::placeholder{
+    padding: 1px;
+    color: #263b44;
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #3a8081;
+    border-radius: 1em;
+    font-weight: 700;
+    transition: 0.3s;
+}
